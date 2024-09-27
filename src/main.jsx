@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
+// Supports weights 200-900
+import '@fontsource-variable/nunito-sans';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
