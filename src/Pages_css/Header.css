@@ -73,4 +73,12 @@
 
 .Profile_logo:hover .dropdown-content {display: block;}
 
+.Logo {
+    width: 3.5vw;
+    height: auto;
+    position: absolute;
+    top: 0.2vw;
+    left: 0.2vw;
+}
+
 

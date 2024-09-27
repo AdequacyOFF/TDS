@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../Pages_css/Header.css';
+import Logo from "../assets/TDSLogo.png";
 
 function Header() {
 
@@ -11,7 +12,7 @@ function Header() {
           <Link to='/' className='Profile_links'>Home</Link>
         </div>
       </Link>
-      <Link to='/' className='Logo' title=''><img src="src/Images/LOGO_tea.png" alt="" className='Logo'/></Link>
+      <Link to='/' className='Logo' title=''><img src={Logo} alt="" className='Logo'/></Link>
     </div>
   )
 }

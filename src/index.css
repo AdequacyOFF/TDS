@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     background: rgb(196, 196, 196) !important;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans Variable', sans-serif;
   }
 
   #root{
