@@ -8,14 +8,22 @@
     
   }
 
+.wrapper{
+    display: grid !important;
+    grid-template-columns: repeat(24, 4.166vw);
+    grid-template-rows: repeat(24, 4.166vh);
+}
+
 .header{
     display: block;
-    height: 5vw;
-    max-height: 134.4px;
+    grid-column: 1/-1;
+    grid-row: 1/4;
 }
 
 .footer{
     display: block;
+    grid-column: 1/-1;
+    grid-row: 22/-1;
 }
 
 .main{
@@ -25,29 +33,6 @@
    margin-right: auto;
 }
 
-.neutral{
-    background-color: rgb(173, 173, 173,0.7);
-} 
-
-.joy{
-    background: rgba(245, 213, 63,0.7);
-}
-
-.sadness{
-    background: rgba(99, 111, 189,0.7);
-}
-
-.surprise{
-    background: rgba(8, 232, 222,0.7);
-}
-
-.fear{
-    background: rgba(134, 219, 74,0.5);
-}
-
-.anger{
-    background: rgba(222, 44, 44,0.5);
-}
 .output-text{
     margin-right: 5px;
     border-radius: 5px;
@@ -62,24 +47,6 @@
   white-space: pre-wrap;
   overflow-wrap: break-word;
   max-width: 100%; /* Adjust this value to fit your desired frame width */
-}
-
-.Diogram{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    height: 70%;
-    width: 70vw;
-    font-size: 2vw;
-}
-
-
-
-.TotalDiogram{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    height: 70%;
-    width: 70vw;
-    font-size: 2vw;
 }
 
 

@@ -1,8 +1,64 @@
 .Footer{
   background-color: rgb(42, 42, 42);
-  height: 8vw;
+  height: 100%;
   box-shadow: 0px 4px 38px 29px rgba(0, 0, 0, 0.25);
   visibility: visible;
+  display: grid;
+  grid-template-columns: repeat(24,4.166vw);
+  grid-template-rows: repeat(24,4.166%);
+}
+
+
+
+
+.Footer {
+  font-family: "NanitoSans", sans-serif;
+}
+
+.Strip{
+  grid-column: 2 /-2;
+  grid-row: 14/15;
+  width: 100%;
+  color: rgb(114, 114, 114);
+  background-color: rgb(114, 114, 114);
+}
+
+.Logo_AdOFF{
+  width: 25% !important;
+  height: auto;
+}
+
+.Logo_footer{
+  grid-column: 2/6;
+  grid-row: 2/10;
+}
+
+.Cooperation_text {
+  grid-row: 10/13;
+  grid-column: 5/22;
+  text-align: center;
+}
+
+.Cooperation_text a {
+  font-size: 1rem;
+  margin-left: 1vw;
+  display: inline-block;
+  color: rgb(196, 196, 196);
+}
+
+@media(width < 1800px){
+  .Cooperation_text a{
+    font-size: 0.8rem;
+  }
+  .Cooperation_text{
+
+  }
+}
+
+@media(width < 1400px){
+  .Cooperation_text a{
+    font-size: 0.6rem;
+  }
 }
 
 @media(width < 900px){
@@ -11,109 +67,25 @@
   }
 }
 
-
-.Footer {
-  font-family: "NanitoSans", sans-serif;
-}
-
-.Strip{
-  display: block;
-  margin-top: 5vw;
-  width: 100%;
-  color: rgb(114, 114, 114);
-  background-color: rgb(114, 114, 114);
-}
-.Strip_block{
-  position: absolute;
-  height: 7.5vw;
-  width: 90vw;
-  left: 5vw;
-}
-
-
-.Logo_znania{
-  display: inline-block;
-  width: 40% !important;
-  height: auto;
-  margin-left: 20% !important;
-  margin-right: auto;
-  margin-top: 17%;
-}
-
-.Logo_AdOFF{
-  display: inline-block;
-  width: 40% !important;
-  height: auto;
-}
-
-.Logo_tea_footer{
-  display: inline-block;
-  width: 80% !important;
-  height: auto;
-  margin-left: 15%;
-  margin-top: 5%;
-  
-}
-
-.Logo_footer{
-  position: absolute;
-  width: 5vw;
-  left: 5vw;
-}
-
-.Cooperation_text a {
-  display: block;
-  
-}
-
-.hrefs{
-  margin-top: 0.45vw;
-}
-
-.Cooperation_text {
-  position: absolute;
-  left: 10.5vw;
-  width: 6vw;
-
-}
-
-.Cooperation_text a {
-  font-size: 0.45vw;
-  color: rgb(196, 196, 196);
-}
-
-.emoji{
-  position: absolute;
-  width: 25vw;
-  left: 70vw;
-}
-
-.emoji img{
-  height: auto;
-  width: 100%;
-  margin-top: 1.2vw;
-}
-
 .contact_information{
-  height: 8vw;
- width: 15vw;
- position: absolute;
- left: 42.5vw;
+  grid-column: 11/15;
+  grid-row: 17/-2;
 }
 
 .icons_contact{
   text-align: center;
-  margin-top: 5.5vw;
 }
+
 
 .Copyright p{
   color: rgb(114, 114, 114);
-  font-size: 0.4vw;
+  font-size: 0.6vw;
   font-weight: 400;
   text-align: center;
+  margin: 0;
 }
 
 .icons_contact img{
-  width: 7.5%;
+  width: 9%;
   height: auto;
 }

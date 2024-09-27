@@ -9,12 +9,7 @@ function Footer() {
     <div className='Footer'>
         <Logo/>
         <Cooperation/>
-        <div className='emoji'>
-          <img src="src\Images\emoji.png" alt="" />
-        </div>
-      <div className='Strip_block'>
-          <hr className='Strip'></hr>
-      </div>
+        <hr className='Strip'></hr>
       <Contacts/>
     </div>
   )
