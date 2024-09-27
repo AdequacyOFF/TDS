@@ -27,6 +27,14 @@ function Profile() {
             <br />
             #5432
           </p>  
+          <p className="GM_info">
+            <p className="GM">
+                Руководитель: 
+                <Link to='/Profile'>
+                    Владислав Баев
+                </Link>
+            </p>
+          </p>
         </div>
       </div>
     </div>

@@ -92,6 +92,19 @@
 }
 
 .Project_name{
-    margin-left:1%
-    
+    width: 10%;
+    display: inline-block;
+    margin: 0;
+}
+
+.GM_info{
+    width: 20%;
+    display: inline-block;
+    margin: 0;
+    height: 100%;
+}
+
+.GM{
+    width: 10%;
+    margin: 0;
 }
