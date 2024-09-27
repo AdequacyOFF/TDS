@@ -70,12 +70,15 @@
 .Search{
     grid-column: 7/10;
     grid-row: 3/4;
+    
 }
 
 .Search input{
     width: 100%;
     border-radius: 7px;
     padding-left: 3%;
+    font-size: 18px;
+    height: 3vh;
 }
 
 .Projects{
