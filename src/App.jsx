@@ -5,6 +5,7 @@ import Header from './Pages/Header.jsx'
 import Home from './Pages/Home.jsx'
 import Profile from './Pages/Profile.jsx'
 import Create from './Pages/Create.jsx'
+import Register from './Pages/Register.jsx'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
     <header className='header'><Header></Header></header>
     <main className='main'>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Register />} />
+                <Route path='/Home' element={<Home />}/>
                 <Route path="/Profile" element={<Profile />} />
                 <Route path="/Create" element={<Create />} />
             </Routes>
