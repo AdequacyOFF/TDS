@@ -29,12 +29,25 @@ function Profile() {
           </p>  
           <p className="GM_info">
             <p className="GM">
-                Руководитель: 
+                Руководитель:  
                 <Link to='/Profile'>
                     Владислав Баев
                 </Link>
             </p>
+            <br />
+            <p className="Now">
+                Текущее:
+            </p>
           </p>
+          
+            <p className="Manage_project">
+                <Link to='/Manage'>
+                    Управлять проектом
+                </Link>
+            </p>
+            <p className="Progress">
+                70%
+            </p>
         </div>
       </div>
     </div>
