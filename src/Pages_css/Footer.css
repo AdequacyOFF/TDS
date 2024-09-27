@@ -28,6 +28,10 @@
   height: auto;
 }
 
+.Logo_AdOFF:hover{
+  cursor: pointer;
+}
+
 .Logo_footer{
   grid-column: 2/6;
   grid-row: 2/10;
@@ -44,6 +48,11 @@
   margin-left: 1vw;
   display: inline-block;
   color: rgb(196, 196, 196);
+  text-decoration: none;
+}
+.Cooperation_text a:hover{
+  color: rgb(147, 146, 146);
+  text-decoration-line: underline;
 }
 
 @media(width < 1800px){
@@ -88,4 +97,8 @@
 .icons_contact img{
   width: 9%;
   height: auto;
+}
+
+.icons_contact img:hover{
+  cursor: pointer;
 }

@@ -5,10 +5,13 @@ function Header() {
 
   return (
     <div className='Head'>
-      <img src="src/Images/LOGO_tea.png" alt="" className='Logo'/>
-          <Link to='/' className='txt' title='В данном разделе вы можете написать свою статью или же вставить какой-либо текст для его последующего анализа и редактирования'>ТЕКСТ</Link>
-          <Link to='/Document' className='doc' title='В данном разделе вы можете загрузить файл с вашей статьёй для её последующего анализа и редактирования'>ЗАГРУЗИТЬ ДОКУМЕНТ</Link>
-          <Link to='/Url' className='url' title='В данном разделе вы можете вставить ссылку на интернет-статью для её автоматического считывания и последующего анализа и редактирования'>URL</Link>
+      <Link to='/Profile' className='Profile_logo' title=''><img src="src/Images/Profile.png" alt=""  className='Profile_logo' />
+      <div class="dropdown-content">
+          <Link to='/Profile' className='Profile_links'>Profile</Link>
+          <Link to='/' className='Profile_links'>Home</Link>
+        </div>
+      </Link>
+      <Link to='/' className='Logo' title=''><img src="src/Images/LOGO_tea.png" alt="" className='Logo'/></Link>
     </div>
   )
 }
