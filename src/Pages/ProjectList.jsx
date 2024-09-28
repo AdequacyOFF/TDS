@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import projects from './projects.json';
 import '../Pages_css/ProjectList.css'; 
 
@@ -18,10 +18,8 @@ const ProjectList = () => {
           <p className="GM_info">
             <p className="GM">
               Руководитель:  
-              <span className="lead-name">{project.lead_name}</span>
-            </p>
+              <Link to="/Profile" className="lead-name">{project.lead_name}</Link>
             <br />
-            <p className="Now">
               Текущее:
             </p>
           </p>
