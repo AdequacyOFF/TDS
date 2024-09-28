@@ -1,9 +1,12 @@
 .project-detail {
-  padding: 20px;
+  padding: 1%;
   background-color: #f9f9f9;
-  border-radius: 5px;
-  max-width: 600px;
+  border-radius: 10px;
+  width: 50%;
+  height: 80%;
   margin: auto;
+  margin-top: 3%;
+  overflow: scroll;
 }
 
 .project-detail h1 {
@@ -25,4 +28,8 @@
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+}
+
+.SubTasks{
+  display: inline;
 }

@@ -28,11 +28,20 @@ const ProjectDetail = () => {
         <ul>
           {project.tasks.map((task, index) => (
             <li key={index}>
-              <strong>{task.name}:</strong> {task.description} (Прогресс: {task.progress}%)
+              <strong>{task.name}:</strong> 
+              {task.description} 
+              (Прогресс: {task.progress}%)
+              <button className='SubTasks' onClick={
+                () => setSubTasksVisible(index,!subTasksVisible)
+              }>
+                Показать подзадачи
+              </button>
             </li>
           ))}
+          
         </ul>
       )}
+      
     </div>
   );
 };
