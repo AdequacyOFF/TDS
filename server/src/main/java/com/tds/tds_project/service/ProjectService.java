@@ -12,7 +12,7 @@ public class ProjectService {
     @Autowired
     private ProjectRepository projectRepository;
 
-    public List<Project> getAllProjects() {
+    public List<Project> getUserProjects() {
         return projectRepository.findAll();
     }
 
