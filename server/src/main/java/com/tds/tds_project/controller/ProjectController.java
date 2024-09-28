@@ -14,8 +14,8 @@ public class ProjectController {
     private ProjectService projectService;
 
     @GetMapping
-    public List<Project> getAllProjects() {
-        return projectService.getAllProjects();
+    public List<Project> getUserProjects() {
+        return projectService.getUserProjects();
     }
 
     @PostMapping
